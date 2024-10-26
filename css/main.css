@@ -7,7 +7,9 @@
   --bs-primary: #2e483a;
 }
 
-
+ul {
+  list-style-type: none;
+}
 
 .navbar-brand {
   color: #F6F3ED;
@@ -19,6 +21,13 @@ body {
 
 h1, h2, h3 {
   font-family: "Merriweather", serif;
+}
+
+#famdinner {
+  img {
+    width: 60%;
+    height: auto;
+  }
 }
 
 #hero {
@@ -39,6 +48,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color:#E4E6DB;
 }
 
 #cta .d-flex {
