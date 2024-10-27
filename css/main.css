@@ -2,14 +2,116 @@
 
 /* Set custom variables here */
 
-:root 
-[data-bs-theme=dark] {
+:root {
   --bs-primary: #2e483a;
+  --bs-secondary: #F6F3ED;
+}
+
+.navbar {
+  background-color: var(--bs-primary);
+}
+
+#hero button {
+  background-color: var(--bs-primary);
+  border: none;
+}
+
+#hiw button {
+  background-color: var(--bs-primary);
+  border: none;
+}
+
+#customers {
+  background-color: var(--bs-primary);
+  color: var(--bs-secondary);
+}
+
+#cta button {
+  background-color: var(--bs-primary);
+  border: none;
+}
+
+#foot {
+  background-color: var(--bs-primary);
+  color: var(--bs-secondary);
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#hiw hr {
+  color: var(--bs-primary);
 }
 
 ul {
   list-style-type: none;
 }
+
+
+#hiwflex {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media (min-width: 992px) {
+  #hiwflex {
+    display: flex;
+    flex-direction: row;
+
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+
+#famdinnerflex {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  text-align: center;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  #famdinnerflex {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+
+    img {
+      width: 80%;
+      height: auto;
+    }
+
+    text-align: left;
+  }
+}
+
+#custflex {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media (min-width: 992px) {
+  #custflex {
+    display: flex;
+    flex-direction: row;
+
+    align-content: center;
+    justify-content: center;
+  }
+}
+
 
 .navbar-brand {
   color: #F6F3ED;
@@ -21,13 +123,6 @@ body {
 
 h1, h2, h3 {
   font-family: "Merriweather", serif;
-}
-
-#famdinner {
-  img {
-    width: 60%;
-    height: auto;
-  }
 }
 
 #hero {
